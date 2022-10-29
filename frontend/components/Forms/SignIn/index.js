@@ -18,14 +18,14 @@ export default function Signip() {
                       <input type="email" id="email" name="email" placeholder="exemplo@email.com" />
                     </div>
                     <div className={styles.formInput}>
-                      <label htmlFor="email">Senha</label>
+                      <label htmlFor="password">Senha</label>
                       <input type="password" id="password" name="password" placeholder="Insira sua senha" />
                     </div>
                     <button type="submit" className="btn btn-primary bg-secondary rounded-pill">Fazer login</button>
+                    <small>
+                        Não possui conta? <Link  href="/cadastro">Cadastre-se</Link>
+                    </small>
                 </fieldset>
-                <small>
-                    Não possui conta? <Link  href="/cadastro">Cadastre-se</Link>
-                </small>
             </form>
         </div>
         
