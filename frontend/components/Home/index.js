@@ -1,5 +1,6 @@
 import styles from './style.module.scss'
 import HomeHead from './HomeHead'
+import HomeContent from './HomeCards'
 
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
         <HomeHead />
       </div>
      </header>
+     <main>
+        <HomeContent />
+     </main>
         
     </>
   )
