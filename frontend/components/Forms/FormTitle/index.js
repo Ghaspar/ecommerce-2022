@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Signup() {
   return (
     <>
-    <div className="title">
+    <div className="title text-center">
         <Image
         width='50'
         height='50'

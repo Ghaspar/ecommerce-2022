@@ -5,7 +5,7 @@ import Form from '../../components/Forms'
 export default function Cadastro() {
   return (
       <>
-        <Form />
+        <Form currentForm="cadastro" />
 
       </>
   )
