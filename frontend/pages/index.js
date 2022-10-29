@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import HomeContent from '../components/Home'
 
 export default function Home() {
   return (
       <>
-        <h1>
-          home
-        </h1>
-
+        <HomeContent />
       </>
   )
 }
