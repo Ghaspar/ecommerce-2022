@@ -3,11 +3,11 @@ import Image from 'next/image'
 import FormTitle from '../FormTitle'
 import Link from 'next/link'
 
-export default function Signup() {
+export default function Signip() {
   return (
     <>
        
-        <div className="container">
+       <div className="container">
             <FormTitle />
             <form action="" className="text-center">
                 <h2>Boas-vindas!</h2>
@@ -21,7 +21,7 @@ export default function Signup() {
                       <label htmlFor="email">Senha</label>
                       <input type="password" id="password" name="password" placeholder="Insira sua senha" />
                     </div>
-                    <button type="submit" class="btn btn-primary bg-secondary rounded-pill">Fazer login</button>
+                    <button type="submit" className="btn btn-primary bg-secondary rounded-pill">Fazer login</button>
                 </fieldset>
                 <small>
                     Não possui conta? <Link  href="/cadastro">Cadastre-se</Link>
