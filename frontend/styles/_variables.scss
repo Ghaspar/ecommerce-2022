@@ -1,2 +1,8 @@
 $primary: #32323B;
 $secondary: #B7005C;
+
+.bg{
+   &-secondary{
+        background-color: $secondary!important;
+   } 
+}

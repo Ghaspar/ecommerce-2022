@@ -1,0 +1,19 @@
+.formInputs{
+    padding: 2rem 0;
+    .formInput{
+        text-align: left;
+        margin-bottom: 15px;
+        label{
+            display: block;
+            margin-bottom: .5rem;
+            font-weight: 600;
+        }
+        input{
+            background: #F8F8F8;
+            border: 1.5px solid #858585;
+            border-radius: 6px;
+            width: 100%;
+            padding: .5rem;
+        }
+    }
+}
