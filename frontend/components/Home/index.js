@@ -5,8 +5,10 @@ import HomeHead from './HomeHead'
 export default function Home() {
   return (
     <>
-     <header>
+     <header className={styles.homeHeader}>
+      <div className="container">
         <HomeHead />
+      </div>
      </header>
         
     </>
