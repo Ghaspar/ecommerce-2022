@@ -25,7 +25,7 @@ export default function HomeHead() {
                 </Link>
             </div>
             <div className="col-lg-2">
-                <Link href="/carrinho">
+                <Link href="/login">
                     <PersonCircle />
                     <span className="ps-2">
                         Usuário
