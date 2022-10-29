@@ -31,7 +31,7 @@ export default function SignUp() {
                     <small>
                         Ao criar uma conta, você concorda com a nossa <Link  href="#">Política de Privacidade</Link> e <Link  href="#">Termos de serviço</Link>
                     </small>
-                    <button type="submit" className="btn btn-primary bg-secondary rounded-pill">Fazer login</button>
+                    <button type="submit" className="btn btn-primary bg-secondary rounded-pill">Criar conta</button>
                     <small>
                       Não possui conta? <Link  href="/cadastro">Cadastre-se</Link>
                     </small>
